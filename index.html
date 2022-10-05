@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média dos Alunos</title>
+</head>
+
+<body>
+
+    <h2>Média dos Alunos</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Aluno</th>
+                <th>Notas</th>
+                <th>Média</th>
+                <th>Aprovado</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <form action="" id="mediaTabela" onsubmit="return false">
+        <label for="aluno">Aluno(a)</label>
+        <input type="text" class="aluno" required>
+        <br>
+
+        <label for="notas">Notas separadas por vírgula</label>
+        <input type="text" class="notas" required>
+        <br><br>
+
+        <button type="submit">CADASTRAR</button>
+    </form>
+
+    <script src="/crud.js"></script>
+
+</body>
+
+</html>
